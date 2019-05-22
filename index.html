@@ -1,94 +1,401 @@
 <!doctype html>
-<html lang="en">
+  <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="canonical" href="http://www.krisellery.com">
-    <title>Kris Ellery - UI Engineer</title>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
-    <style>
-      html {
-        box-sizing: border-box;
-        -webkit-tap-highlight-color: transparent
-      }
-
-      *,
-      :after,
-      :before {
-        box-sizing: inherit
-      }
-
-      body,
-      h1 {
-        margin: 0
-      }
-
-      body {
-        background-color: #e9573f;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-style: normal;
-        text-rendering: optimizeSpeed;
-        font-weight: 400
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased
-      }
-
-      .c-app,
-      body {
-        position: relative
-      }
-
-      .c-app {
-        width: 100vw;
-        height: 100vh;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: column nowrap;
-        flex-flow: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center
-      }
-
-      .c-app__content {
-        max-width: 800px;
-        padding-left: 20px;
-        padding-right: 20px
-      }
-
-      .c-app__headline {
-        font-family: "Libre Baskerville", sans-serif;
-        font-weight: 700;
-        color: #f5f7fa;
-        font-size: 32px;
-        line-height: 1.25;
-        letter-spacing: -1px
-      }
-
-      @media screen and (min-width:720px) {
-        .c-app__headline {
-          font-size: 48px;
-          letter-spacing: -2px
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="c-app">
-      <div class="c-app__content">
-        <h1 class="c-app__headline">Kris Ellery</h1>
-      </div>
-    </div>
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="http://www.kris-ellery.com">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400&display=swap" rel="stylesheet">
+    <link href="/styles/main.min.css" rel="stylesheet">
+    <title>Kris Ellery - UI Engineer in Dallas, TX</title>
+    <meta name="description" content="80% UI Engineer and 20% UI Designer. Kris is passioned about metric-driven web development, seo, accessibility, and performance.">
+    <meta property="og:type" content="website">
+    <meta property="fb:admins" content="2342745">
+    <meta property="og:title" content="Kris Ellery - UI Engineer in Dallas, TX">
+    <meta property="og:description" content="80% Front-end Web Developer and 20% UI Designer. Kris is passioned about metric-driven web development, seo, accessibility, and performance.">
+    <meta property="og:site_name" content="Kris Ellery">
+    <meta property="og:url" content="http://www.kris-ellery.com">
+    <meta property="og:image" content="http://www.kris-ellery.com/images/avatar.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@_kris-ellery">
+    <meta name="twitter:title" content="Kris Ellery - UI Engineer in Dallas, TX">
+    <meta name="twitter:description" content="80% UI Engineer and 20% UI Designer. Kris is passioned about metric-driven web development, seo, accessibility, and performance.">
+    <meta name="twitter:image" content="http://www.kris-ellery.com/images/avatar.jpg">
+    <meta name="twitter:url" content="http://www.kris-ellery.com">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114598177-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-114598177-1');
+    </script>
+  </head>
+  <body data-scroll-target="home">
+    <header class="c-container c-container--header" role="banner">
+      <div class="o-wrapper">
+        <a href="/" class="c-logo">Kris Ellery</a>
+        <button class="c-menu-trigger js-menu-trigger" role="button" type="button">
+          <span class="c-menu-trigger__icon">Menu</span>
+        </button>
+        <nav class="c-navigation js-navigation" role="navigation">
+          <ul class="c-navigation__list">
+            <li class="c-navigation__item">
+              <a class="c-navigation__link" data-scroll-trigger="home">Home</a>
+            </li>
+            <li class="c-navigation__item">
+              <a class="c-navigation__link" data-scroll-trigger="portfolio">Portfolio</a>
+            </li>
+            <li class="c-navigation__item">
+              <a class="c-navigation__link" data-scroll-trigger="experience">Experience</a>
+            </li>
+            <li class="c-navigation__item">
+              <a class="c-navigation__link" data-scroll-trigger="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="c-container c-container--main" role="main">
+      <section class="c-container c-container--hero">
+        <div class="o-wrapper">
+          <article class="c-hero">
+            <h1 class="c-hero__title"><span>Developer.</span><br>Designer.<br>Technologist.</h1>
+          </article>
+        </div>
+      </section>
+      <section class="c-container c-container--portfolio" data-scroll-target="portfolio">
+        <div class="o-wrapper">
+          <div class="c-content">
+            <div class="u-align-center">
+              <h2 class="c-content__heading">Portfolio</h2>
+              <p class="c-content__intro">80% UI Engineer and 20% UI Designer who strongly believes in intuitive user-experience, metric-driven web performance and analytics, as well as, content-driven SEO.
+              </p>
+              <p class="c-content__intro">Due to confidentially agreements Kris is prohibited to showcase some of his best work. Please reach out for more details if interested.</p>
+            </div>
+          </div>
+          <div class="c-cards">
+            <ul class="c-cards__list">
+              <li class="c-cards__item">
+                <a href="https://github.com/kris-ellery/web-starter-kit-gulp" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/web-starter-kit-gulp.jpg" class="c-card__image"
+                      alt="Screenshot: Web Starter Kit with Gulp">
+                    <span class="c-card__vendor" data-vendor="github">GitHub</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Web Starter Kit with Gulp</h3>
+                    <span class="c-card__meta o-truncate">Gulp, Sass, Jade, JS, NodeJS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://github.com/kris-ellery/web-starter-kit" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/web-starter-kit.jpg" class="c-card__image"
+                      alt="Screenshot: Web Starter Kit with Grunt">
+                    <span class="c-card__vendor" data-vendor="github">GitHub</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Web Starter Kit with Grunt</h3>
+                    <span class="c-card__meta o-truncate">Grunt, Sass, Handlebars, JS, NodeJS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="http://codepen.io/kris-ellery/full/wBQBNX" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/dropdown-component.jpg" class="c-card__image"
+                      alt="Screenshot: Dropdown Component">
+                    <span class="c-card__vendor" data-vendor="codepen">CodePen</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Dropdown Component</h3>
+                    <span class="c-card__meta o-truncate">BEM, Sass, JS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="http://codepen.io/kris-ellery/full/Jodjbd" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/swimming-card.jpg" class="c-card__image"
+                      alt="Screenshot: Scalable Card">
+                    <span class="c-card__vendor" data-vendor="codepen">CodePen</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Scalable Card Component</h3>
+                    <span class="c-card__meta o-truncate">BEM, Sass</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="http://codepen.io/kris-ellery/full/vGfeL" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/donut-chart.jpg" class="c-card__image" alt="Screenshot: Donut chart">
+                    <span class="c-card__vendor" data-vendor="codepen">CodePen</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Donut Chart</h3>
+                    <span class="c-card__meta o-truncate">HTML, Sass, JS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="http://carebnb.io" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/carebnb.jpg" class="c-card__image" alt="Screenshot: Carebnb">
+                    <span class="c-card__vendor" data-vendor="website">Website</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Carebnb</h3>
+                    <span class="c-card__meta o-truncate">Jade, Stylus, NodeJS, Express, Heroku</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://dribbble.com/shots/1210803-Mobile-app-account-screen" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/switch-mobile.jpg" class="c-card__image" alt="Screenshot: Switch">
+                    <span class="c-card__vendor" data-vendor="dribbble">Dribbble</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Switch</h3>
+                    <span class="c-card__meta o-truncate">PS, AI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://dribbble.com/shots/1293677-Formula-builder" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/tagular-desktop.jpg" class="c-card__image"
+                      alt="Screenshot: Tagular Desktop">
+                    <span class="c-card__vendor" data-vendor="dribbble">Dribbble</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Query Builder</h3>
+                    <span class="c-card__meta o-truncate">Jade, Sass, JS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://dribbble.com/shots/1221367-Chat-Interface" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/articulate-agent.jpg" class="c-card__image"
+                      alt="Screenshot: Articulate">
+                    <span class="c-card__vendor" data-vendor="dribbble">Dribbble</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Articulate</h3>
+                    <span class="c-card__meta o-truncate">HTML, Sass, JS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://github.com/kris-ellery/Kanso" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/kanso.jpg" class="c-card__image" alt="Screenshot: Kanso">
+                    <span class="c-card__vendor" data-vendor="website">Website</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Kanso</h3>
+                    <span class="c-card__meta o-truncate">HTML, Sass, LESS, Freebie</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://dribbble.com/shots/1051431-Web-Application-Mobile-Rendering" target="_blank"
+                  class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/tagular-mobile.jpg" class="c-card__image"
+                      alt="Screenshot: Tagular Mobile">
+                    <span class="c-card__vendor" data-vendor="dribbble">Dribbble</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Tagular</h3>
+                    <span class="c-card__meta o-truncate">Jade, Sass, JS</span>
+                  </div>
+                </a>
+              </li>
+              <li class="c-cards__item">
+                <a href="https://dribbble.com/shots/1105782-Event-Calendar-Web-App" target="_blank" class="c-card">
+                  <figure class="c-card__figure">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      data-src="/images/portfolio/green-event.jpg" class="c-card__image" alt="Screenshot: Green Event">
+                    <span class="c-card__vendor" data-vendor="dribbble">Dribbble</span>
+                  </figure>
+                  <div class="c-card__content">
+                    <h3 class="c-card__title o-truncate">Green Event</h3>
+                    <span class="c-card__meta o-truncate">HTML, Sass, JS</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="c-container c-container--experience" data-scroll-target="experience">
+        <div class="o-wrapper">
+          <article class="c-content">
+            <div class="u-align-center">
+              <figure class="c-content__figure u-align-center">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/avatar.jpg"
+                  class="c-content__image" alt="Photo: Kris Ellery">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/pow.png"
+                  class="c-content__image c-content__surprise" alt="Image: Avatar">
+              </figure>
+              <h2 class="c-content__heading u-align-center">Experience</h2>
+              <p class="c-content__intro">Kris has over 10 years of professional experience in design, development, and implementation of websites and web applications. He continuously strives to improve development process, as well as, leverage latest techniques and methodologies to deliver the most efficient and performant solutions.</p>
+              <a href="/kris-ellery-resume.pdf" target="_blank" class="c-content__button">Download Resume (.pdf)</a>
+            </div>
+            <h3 class="c-content__title">Cofense</h3>
+            <span class="c-content__meta">Remote (Sep. 2017 - present)</span>
+            <p class="c-content__text"><a href="http://www.cofense.com/" target="_blank"
+                class="c-content__link">Cofense</a>  focuses on solutions for the problem of phishing – the most effective 
+                attack vector used in more than 90% of successful breaches. Cofense is dedicated to providing the highest 
+                quality cyber security solutions and they continue to innovate with dozens of patented technologies. Kris is 
+                the lead developer on the internal Koi Design System, a Vue.js based collection of reusable components, utilities, 
+                and directives; built with Rollup and hosted in a private NPM registry in Artifactory.</p>
+            <h3 class="c-content__title">Publicis Hawkeye</h3>
+            <span class="c-content__meta">Dallas, TX (Nov. 2013 - Sep. 2017)</span>
+            <p class="c-content__text"><a href="http://www.publicishawkeye.com/" target="_blank"
+                class="c-content__link">Publicis Hawkeye</a> is an advertising agency specializing in extraordinary ideas
+              by leveraging data, creativity, and technology. As a part of <a href="http://www.publicisgroupe.com/"
+                target="_blank" class="c-content__link">Publicis Groupe</a>, a multinational advertising conglomerate,
+              Publicis Hawkeye delivers top-notch solutions for domestic and international brands. Kris is one of the
+              senior interactive developers focusing on high-performance and metric-driven web development. Recently, he
+              has won the 2014 and 2015 WebAwards for an Outstanding Achievement in Web Development.</p>
+            <h3 class="c-content__title">Believe.in</h3>
+            <span class="c-content__meta">London, UK (Sep. 2014 - Oct. 2014)</span>
+            <p class="c-content__text"><a href="http://www.believe.in/" target="_blank"
+                class="c-content__link">Believe.in</a> was a small startup with big dreams of helping non-profits to run
+              faster and raise more money thru integrated fundraising. Kris was one of the front-end web developers
+              working on <a href="https://uk.believe.in/products/events" target="_blank" class="c-content__link">Events
+                &amp; Ticketing</a> product. He has also helped to develop <a href="http://www.carebnb.io/"
+                target="_blank" class="c-content__link">Carebnb</a> website, which was intended to increase awareness of
+              and support for combating and treatment of Ebola in Guinea, Liberia, and Sierra Leone.</p>
+            <h3 class="c-content__title">Red Ventures</h3>
+            <span class="c-content__meta">Charlotte, NC (Apr. 2012 - Nov. 2013)</span>
+            <p class="c-content__text"><a href="http://www.redventures.com/" target="_blank" class="c-content__link">Red
+                Ventures</a> is a customer acquisition company. They partner with large brands in high-growth industries
+              and own the entire direct marketing process on their behalf - from demand generation to closing the sale.
+              Kris was the lead front-end web developer and product designer for an in-house R&amp;D team. His <a
+                href="http://www.direct2tv.com/thekingsroadmap/" target="_blank" class="c-content__link">interactive
+                map</a> for HBO's Game of Thrones was featured on <a
+                href="http://techland.time.com/2013/04/03/follow-the-kings-roadmap-game-of-thrones-web-app-rules/"
+                target="_blank" class="c-content__link">Time Magazine</a> website.</p>
+            <blockquote class="c-quote">
+              <p class="c-quote__text">"Kris continually deliver projects in a timely fashion that meet or exceed set
+                requirements. It is well known that he produce some of the best front-end code within the organization. He
+                is willing and open to using new technologies or developing new techniques for pushing innovation in our
+                projects. Kris uses his knowledge of UI design approaches and techniques to ensure our projects are both
+                beautiful visually, but make logical sense from a user interface and flow perspective."</p>
+              <cite class="c-quote__cite"><span>John Sutton</span>Sr. Vice President for Digital Strategy at Red Ventures
+                Inc.</cite>
+            </blockquote>
+            <h3 class="c-content__title">University Advancement at Michigan State University</h3>
+            <span class="c-content__meta">East Lansing, MI (May. 2009 - Apr. 2012)</span>
+            <p class="c-content__text"><a href="http://advancement.msu.edu/" target="_blank"
+                class="c-content__link">University Advancement</a> supports <a href="http://www.msu.edu/" target="_blank"
+                class="c-content__link">Michigan State University</a> in terms of money and advocacy by delivering an
+              integrated program of communications, marketing, and engagement. Kris designed and developed a variety of
+              websites and web applications for students, donors, and alumni of MSU. His work was featured in <a
+                href="http://www.universitybusiness.com/" target="_blank" class="c-content__link">University Business</a>
+              articles and recognized at <a href="http://www.case.org/" target="_blank" class="c-content__link">CASE</a>
+              conference for higher education.</p>
+            <blockquote class="c-quote">
+              <p class="c-quote__text">"Kris has made exceptional contributions toward leading our design and UI
+                development on all our public facing websites. I admire his tenacity and "let's get it done" type of
+                attitude."</p>
+              <cite class="c-quote__cite"><span>Randy Brown</span>Director of Web Services at Michigan State
+                University</cite>
+            </blockquote>
+          </article>
+        </div>
+      </section>
+      <section class="c-container c-container--contact" data-scroll-target="contact">
+        <div class="o-wrapper">
+          <div class="c-content">
+            <div class="u-align-center">
+              <h2 class="c-content__heading">Let's Talk</h2>
+              <nav class="c-services" role="navigation">
+                <ul class="c-services__list">
+                  <li class="c-services__item">
+                    <a href="mailto:contact@kolszewski.com" target="_blank" class="c-services__link"
+                      data-service="email">Email</a>
+                  </li>
+                  <li class="c-services__item">
+                    <a href="https://dribbble.com/kris-ellery" target="_blank" class="c-services__link"
+                      data-service="dribbble">Dribbble</a>
+                  </li>
+                  <li class="c-services__item">
+                    <a href="https://github.com/kris-ellery" target="_blank" class="c-services__link"
+                      data-service="github">GitHub</a>
+                  </li>
+                  <li class="c-services__item">
+                    <a href="http://codepen.io/kris-ellery/" target="_blank" class="c-services__link"
+                      data-service="codepen">CodePen</a>
+                  </li>
+                  <li class="c-services__item">
+                    <a href="https://twitter.com/kris_ellery" target="_blank" class="c-services__link"
+                      data-service="twitter">Twitter</a>
+                  </li>
+                  <li class="c-services__item">
+                    <a href="https://www.linkedin.com/in/kris-ellery" target="_blank" class="c-services__link"
+                      data-service="linkedin">LinkedIn</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="c-container c-container--footer" role="contentinfo">
+      <div class="o-wrapper">
+        <p class="c-copyright">2019 &copy; Kris Ellery - All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      (function() {
+        'use strict';
+        
+        var menu = document.querySelector('.js-menu-trigger');
+        var scroll = document.querySelectorAll('[data-scroll-trigger]');
+        var navigation = document.querySelector('.js-navigation');
+
+        scroll.forEach(function(item) {
+          item.addEventListener('click', function(e) {
+            e.preventDefault();
+            var id = event.currentTarget.dataset.scrollTrigger;
+            menu.classList.remove('is-active');
+            navigation.classList.remove('is-active');
+            document.querySelector('[data-scroll-target="' + id + '"]').scrollIntoView({ behavior: 'smooth' });
+          }, false);
+        });
+
+        menu.addEventListener('click', function(e) {
+          menu.classList.toggle('is-active');
+          navigation.classList.toggle('is-active');
+        }, false);
+
+        var images = document.getElementsByTagName('img');
+        for (var i = 0; i < images.length; i++) {
+          if (images[i].getAttribute('data-src')) {
+            images[i].setAttribute('src', images[i].getAttribute('data-src'));
+          }
+        }
+      })();
     </script>
   </body>
 </html>
