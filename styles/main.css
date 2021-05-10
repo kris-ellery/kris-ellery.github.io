@@ -201,6 +201,10 @@ cite {
   background-color: #000000;
 }
 
+.c-service-links__item[data-service="twitter"] {
+  background-color: #1d9bf0;
+}
+
 .c-career {
   background-color: var(--alt-background-color);
   padding: 4rem 0;
