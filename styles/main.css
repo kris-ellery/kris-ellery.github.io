@@ -5,18 +5,19 @@
     "Noto Color Emoji";
   --serif-font-family: "Merriweather", ui-serif, Georgia, Cambria,
     "Times New Roman", Times, serif;
-  --default-background-color: #F3F4F6;
+  --default-background-color: #f3f4f6;
   --alt-background-color: #ffffff;
-  --accent-color: #006df6;
-  --accent-color-darker: #004cac;
-  --accent-color-lighter: #4d99f9;
-  --title-color: #1F2937;
+  --accent-color: #2563eb;
+  --accent-color-darker: #1d4ed8;
+  --accent-color-lighter: #3b82f6;
+  --title-color: #1f2937;
   --title-size-lg: 2.75rem;
   --title-size-md: 2rem;
   --title-size-sm: 1.25rem;
   --text-color: #374151;
-  --text-mute-color: #6B7280;
+  --text-mute-color: #6b7280;
   --text-link-color: var(--accent-color);
+  --text-link-color-background: var(--accent-color);
   --text-link-color-hover: #fff;
   --text-size-lg: 1.25rem;
   --text-size-md: 1rem;
@@ -86,8 +87,8 @@ a {
 }
 
 a:focus {
-  box-shadow: 0 0 0 0.125rem
-    var(--default-background-color), 0 0 0 0.25rem var(--accent-color-lighter);
+  box-shadow: 0 0 0 0.125rem var(--default-background-color),
+    0 0 0 0.25rem var(--accent-color-lighter);
   outline: none;
 }
 
@@ -200,15 +201,6 @@ cite {
   background-color: #000000;
 }
 
-.c-service-links__item[data-service="email"] {
-  background-color: var(--accent-color);
-}
-
-.c-portfolio {
-  background-color: #F9FAFB;
-  padding: 4rem 0;
-}
-
 .c-career {
   background-color: var(--alt-background-color);
   padding: 4rem 0;
@@ -253,11 +245,12 @@ cite {
   background-color: transparent;
   border-bottom: 1px solid var(--text-link-color);
   color: var(--text-link-color);
-  transition: background-color 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
 .c-job__description a:hover {
-  background-color: var(--text-link-color);
+  background-color: var(--text-link-color-background);
+  border-color: var(--text-link-color-background);
   color: var(--text-link-color-hover);
 }
 
@@ -332,17 +325,11 @@ cite {
   :root {
     --default-background-color: #16191f;
     --alt-background-color: #20242c;
-    --accent-color: #0EA5E9;
-    --accent-color-darker: #0a73a3;
-    --accent-color-lighter: #56c0f0;
-    --title-color: #F9FAFB;
-    --text-color: #E5E7EB;
-    --text-mute-color: #9CA3AF;
-    --text-link-color: var(--accent-color);
-    --text-link-color-hover: #fff;
-    --button-text-color: #fff;
-    --button-background-color: var(--accent-color);
-    --button-background-color-hover: var(--accent-color-darker);
+    --accent-color-lighter: #60a5fa;
+    --title-color: #f9fafb;
+    --text-color: #e5e7eb;
+    --text-mute-color: #9ca3af;
+    --text-link-color: var(--accent-color-lighter);
   }
 }
 
